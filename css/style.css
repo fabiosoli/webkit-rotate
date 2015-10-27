@@ -1,0 +1,153 @@
+body {
+	padding-top: 70px;        
+}
+
+.navbar-inverse {
+  background-color: #439bad;
+  border: none;
+}
+
+.navbar-header a.navbar-brand {
+	color: #fff;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+h1 {
+	color: #439bad;
+	font-weight: 300;
+	text-align: center;
+}
+
+h1 span {
+	color: #b1d5dc;
+	font-weight: 500;
+}
+
+.wrapper {
+	margin-top: 15px;
+	border: 1px solid #39639c;
+	height: 250px;
+	background-color: #f2f2f2;
+	
+}
+
+
+
+.icon-boxwrap {
+	background-color: #415367;
+	position: relative;
+	margin:20px auto 0 auto;	
+	-webkit-border-radius:100%;
+	-moz-border-radius:100%;
+	border-radius:100%;	
+	height:75px;
+	width:75px;
+	/* applies the angle style ↓↓↓ */
+	-webkit-transform:rotate(-40deg);
+	-moz-transform:rotate(-40deg);
+	-ms-transform:rotate(-40deg);
+	-o-transform:rotate(-40deg);
+	transform:rotate(-40deg);	
+	-webkit-transform-origin:center;
+	-moz-transform-origin:center;
+	-ms-transform-origin:center;
+	-o-transform-origin:center;
+	transform-origin:center;
+	/* after hovering over it makes a smooth transition to its initial starting point ↓↓↓ */
+	-webkit-transition:.5s;
+	-moz-transition:.5s;
+	-ms-transition:.5s;
+	-o-transition:.5s;
+	transition:.5s;
+
+}
+
+/* ********************
+BACKGROUND COLOR 
+******************** */
+.icon-boxwrap {
+	 /*fallback background*/
+	 background-color: #439bad;
+	 /*gradient color as background*/
+	 background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #439bad), color-stop(50%, #439bad), color-stop(51%, #b1d5dc), color-stop(100%, #b1d5dc));
+	 /*linear gradient color as background*/
+	 background: -webkit-linear-gradient(top, #439bad 0, #439bad 50%, #b1d5dc 51%, #b1d5dc 100%);
+	 /*all browser other prefix colors*/
+	 background: -moz-linear-gradient(top, #439bad 0, #439bad 50%, #b1d5dc 51%, #b1d5dc 100%);
+	 background: -ms-linear-gradient(top, #439bad 0, #439bad 50%, #b1d5dc 51%, #b1d5dc 100%);
+	 background: -o-linear-gradient(top, #439bad 0, #439bad 50%, #b1d5dc 51%, #b1d5dc 100%);
+	 background: linear-gradient(top, #439bad 0, #439bad 50%, #b1d5dc 51%, #b1d5dc 100%);
+}
+
+.icon-boxwrap .icon-box { /* ICON itself */
+	color:#fff;	
+  	font-size: 22px;
+  	height:100%;
+	width:100%;
+	position: relative;
+	padding: 27px 28px;
+	-webkit-transform:rotate(40deg);
+	-moz-transform:rotate(40deg);
+	-ms-transform:rotate(40deg);
+	-o-transform:rotate(40deg);
+	transform:rotate(40deg);
+	-webkit-transform-origin:center;
+	-moz-transform-origin:center;
+	-ms-transform-origin:center;
+	-o-transform-origin:center;
+	transform-origin:center;
+	-webkit-transition:.5s;
+	-moz-transition:.5s;
+	-ms-transition:.5s;
+	-o-transition:.5s;
+	transition:.5s;
+
+}
+
+.wrapper:hover .icon-boxwrap {
+	-webkit-transform:rotate(140deg);
+	-moz-transform:rotate(140deg);
+	-ms-transform:rotate(140deg);
+	-o-transform:rotate(140deg);
+	transform:rotate(140deg);
+	-webkit-transform-origin:center;
+	-moz-transform-origin:center;
+	-ms-transform-origin:center;
+	-o-transform-origin:center;
+	transform-origin:center;
+	-webkit-transition:.5s;
+	-moz-transition:.5s;
+	-ms-transition:.5s;
+	-o-transition:.5s;
+	transition:.5s;
+	
+	
+}
+
+
+.wrapper:hover .icon-box {
+	-webkit-transform:rotate(-140deg);
+	-moz-transform:rotate(-140deg);
+	-ms-transform:rotate(-140deg);
+	-o-transform:rotate(-140deg);
+	transform:rotate(-140deg);
+	-webkit-transform-origin:center;
+	-moz-transform-origin:center;
+	-ms-transform-origin:center;
+	-o-transform-origin:center;
+	transform-origin:center;
+	-webkit-transition:.5s;
+	-moz-transition:.5s;
+	-ms-transition:.5s;
+	-o-transition:.5s;
+	transition:.5s;
+	
+	
+}
+
+
+
+
+
